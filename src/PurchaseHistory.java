@@ -24,7 +24,7 @@ public class PurchaseHistory {
         purchaseLists = new ArrayList<>();
  
 
-        CSVReader reader = new CSVReader("C://Users//filip//Documents//Projeto_EDA//recommendation-system//data//dados_venda1.csv");
+        CSVReader reader = new CSVReader("C:\\Users\\filip\\Documents\\Projeto_EDA\\recommendation-system\\data\\dados_venda1.csv");
         ArrayList<String[]> data = reader.readCSV();
 
 
