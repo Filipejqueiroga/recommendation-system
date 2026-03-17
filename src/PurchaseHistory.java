@@ -6,9 +6,6 @@ import java.util.HashSet;
 
 public class PurchaseHistory {
 
-
-    // adicionar no cvs reader para pular a primeira linha
-
     //creating atributtes
     ArrayList<String> customers;
     HashMap<String, Integer> customerIndex;

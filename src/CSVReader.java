@@ -22,8 +22,6 @@ public class CSVReader {
 
             String line; // variable that will store each line of csv file
 
-            // String header = br.readLine(); //read and ignores the header
-
             // this while just stops when the lines are null
             while ((line = br.readLine()) != null) {
                 String[] columns = line.split(","); // split the lines of csv file in an array with four elements
